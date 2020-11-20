@@ -1,0 +1,273 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+@import 'banner-style';
+@import 'footer-style';
+@import 'navbar-style';
+@import 'nosotros-style';
+@import 'servicios-home-style';
+@import 'contacto-style';
+@import 'homePrincipal-style';
+@import 'cards-productos-style';
+
+// ----------------------------------------------------
+// Inicio Estilos para navbar
+
+.BackgroungNav {
+    @include nav-background-color;
+}
+
+.navbar .navbar-brand {
+    @include navBarNameLogo;
+}
+
+.nav-item .nav-link {
+    @include navBarButtons;
+}
+
+.botonesDesplegables {
+    @include buttonsList;
+}
+
+.a-botonesDesplegables {
+    @include color-paraA-menu-desplegable;
+}
+
+// Fin Estilos para navbar
+
+// ----------------------------------------------------
+
+// inicio estilos banner ppal
+
+.styles-edit-banner-jumbotron {
+    @include jumbotron-style;
+}
+
+.styles-edit-banner-jumbotron h1 {
+    @include h1-Style;
+}
+
+.styles-edit-banner-jumbotron p {
+    @include p-banner-style;
+}
+
+.foto-banner {
+    @include banner-foto;
+}
+
+// fin estilos banner ppal
+
+// ----------------------------------------------------
+
+// inici estilos pagina ppal home
+
+.h4-page-principal {
+    @include h4-page-principal;
+}
+
+// inicio estilos pagina ppal home - sección NOSOTROS
+
+.nosotros-style {
+    @include nosotros-style;
+}
+
+// inicio estilos pagina ppal home - sección SERVICIOS
+
+.servicios-homepage {
+    @include servicios-homepage-style;
+}
+
+.servicios-homepage .card-title {
+    text-decoration: underline;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.servicios-homepage .card-text {
+    padding-top: 30px;
+}
+
+.servicios-homepage a {
+    margin-top: 60px;
+}
+
+
+// inicio estilos pagina ppal home - sección CONTACTO
+
+.contacto-styles {
+    @include contacto-styles;
+}
+
+.contacto-styles .info-fcontainer {
+    border-right: 2px double $fontColorBody;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+// fin estilos pagina ppal home
+
+
+// ----------------------------------------------------
+
+// Inicio Footer
+
+.footer-style {
+    @include footer-styles;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.footer-style a {
+    text-decoration: none !important;
+    color: $fontColorFooter;
+}
+
+.footer-style h6 {
+    @include h6-footer;
+}
+
+.logo-whatsapp {
+    @include logoWhatsapp;
+}
+
+.logomedia-facebook,
+.logomedia-instagram {
+    @include social-media-styles;
+}
+
+.JD-style {
+    @include JD-company;
+}
+
+
+// Fin estilos Footer
+// ----------------------------------------------------
+
+// Inicio estilos banner secciones
+
+.banner-secciones {
+    @include fotoBannerSecciones;
+}
+
+.h2-secciones {
+    @include h2-secciones-style;
+}
+
+// Fin estilos banner secciones
+
+// Inicio estilos card productos secciones
+
+.card-products {
+    @include cardProductStyle;
+}
+
+.modal-header .modal-title {
+    color: $fontColorBody;
+    font-family: $font-titles;
+}
+
+.modal-body {
+    color: $fontColorFooter;
+    font-family: $font-family;
+}
+
+// fin estilos card productos secciones
+
+
+// ----------------------------------------------------
+// Inicio estilos Página servicios
+
+.h4Servicios {
+    @include h4-servicios-styles;
+}
+
+.texto-servicios {
+    @include servicio-textos;
+}
+
+form .form-group {
+    @include formularioContacto-style;
+}
+
+form {
+    margin-left: 30px;
+    align-content: center;
+}
+
+.boton-enviar-servicio {
+    margin-left: 17px;
+}
+
+
+
+/* cambio de cursor */
+
+body {
+    cursor: url("https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/ib047566a915f340f/version/1362614531/image.gif"), default;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+/* media queries para ajustar texto sección serv para eventos */
+@media (max-width:768px) {
+
+    .banner-secciones {
+        margin-top: 115px;
+    }
+
+    /* ajuste de margin del banner para las secciones */
+
+    .foto-banner {
+        margin-top: 70px;
+    }
+
+    /* ajuste de margin del banner ppal */
+
+    .h4Servicios {
+        text-decoration: none;
+    }
+
+    /* quita la decoración del texto para los h4 */
+
+    .carrusel-photo {
+        height: 300px;
+    }
+
+    /* reduce el tamaño de las fotos del carrusel */
+
+    p {
+        font-size: smaller;
+    }
+
+    /* reduce el tamaño de todos los textos P en toda la página */
+
+    .card-products {
+        margin-left: 25px;
+    }
+
+    /* ajuste de margen para las cards de productos */
+
+    .texto-servicios {
+        margin-left: 10px;
+    }
+
+    /* ajuste de margen para texto en página servicios */
+
+    form {
+        margin-left: 7px;
+    }
+
+    /* ajuste de margen para cuadro de formulario */
+
+
+    .JD-style {
+        font-size: 11px;
+    }
+
+    /* ajuste de tamaño letra para footer */
+
+    h2 {
+        font-size: medium;
+    }
+
+
+}

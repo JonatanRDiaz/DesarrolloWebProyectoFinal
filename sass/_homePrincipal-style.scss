@@ -1,0 +1,13 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+
+
+@mixin h4-page-principal {
+    color: $fontColorBody;
+    font-family: $font-titles;
+    font-weight: bolder;
+    font-size: 60px;
+    text-decoration: overline;
+    padding-bottom: 40px;
+    padding-top: 70px;
+}

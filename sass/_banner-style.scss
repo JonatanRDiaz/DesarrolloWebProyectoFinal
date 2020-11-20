@@ -1,0 +1,47 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+
+
+
+// estilos banner principal
+
+@mixin jumbotron-style {
+    background-color: $backgroundgColorBody !important;
+    color: $fontColorBody !important;
+    font-family: $font-titles;
+}
+
+@mixin h1-Style {
+
+    padding-top: 20px;
+}
+
+@mixin p-banner-style {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+
+@mixin banner-foto {
+    margin-top: 24px;
+    border-radius: 40px;
+}
+
+// fin estilos banner principal
+
+
+// Inicio estilos banner secciones
+
+@mixin fotoBannerSecciones {
+    margin-top: 70px;
+    border-radius: 30px;
+}
+
+
+@mixin h2-secciones-style {
+    color: $fontColorBody;
+    font-family: $font-titles;
+    align-items: center;
+}
+
+// Inicio estilos banner secciones

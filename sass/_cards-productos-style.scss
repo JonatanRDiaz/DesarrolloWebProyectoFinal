@@ -1,0 +1,15 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+
+
+@mixin cardProductStyle {
+    color: $fontColorBody;
+    font-family: $font-family;
+    background-color: $backgroundColorCards !important;
+    border-color: $fontColorBody !important;
+    border-width: 2px !important;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 375px;
+}

@@ -1,0 +1,8 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+
+
+@mixin nosotros-style {
+    font-family: $font-family;
+    color: $fontColorBody;
+}

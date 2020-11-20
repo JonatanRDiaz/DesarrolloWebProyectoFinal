@@ -1,0 +1,7 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+
+@mixin contacto-styles {
+    font-family: $font-family;
+    color: $fontColorBody;
+}

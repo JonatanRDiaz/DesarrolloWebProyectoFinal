@@ -1,0 +1,41 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+
+// estilos para sección Servicios del HOME
+
+@mixin servicios-homepage-style {
+    font-family: $font-family;
+    color: $fontColorBody;
+    border-color: $fontColorBody !important;
+    text-align: center;
+}
+
+
+// estilos para página Servicios
+
+
+@mixin h4-servicios-styles {
+    font-family: $font-titles;
+    color: $fontColorBody;
+    text-decoration: overline;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@mixin servicio-textos {
+    font-family: $font-family;
+    color: $fontColorBody;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 30px;
+
+}
+
+
+@mixin formularioContacto-style {
+    font-family: $font-family;
+    color: $fontColorBody;
+    font-size: 18px;
+}

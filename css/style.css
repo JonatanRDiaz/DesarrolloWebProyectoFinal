@@ -1,0 +1,260 @@
+@charset "UTF-8";
+.BackgroungNav {
+  background-color: #228b22;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  color: #ffffff !important;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 5px;
+  padding-left: 2px;
+}
+
+.nav-item .nav-link {
+  font-size: 13px;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff !important;
+}
+
+.botonesDesplegables {
+  background-color: #228b22 !important;
+  font-family: "Oswald", sans-serif;
+}
+
+.a-botonesDesplegables {
+  color: #172f13;
+}
+
+.styles-edit-banner-jumbotron {
+  background-color: #fdfdfd !important;
+  color: #228b22 !important;
+  font-family: "Bungee", cursive;
+}
+
+.styles-edit-banner-jumbotron h1 {
+  padding-top: 20px;
+}
+
+.styles-edit-banner-jumbotron p {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+
+.foto-banner {
+  margin-top: 24px;
+  border-radius: 40px;
+}
+
+.h4-page-principal {
+  color: #228b22;
+  font-family: "Bungee", cursive;
+  font-weight: bolder;
+  font-size: 60px;
+  text-decoration: overline;
+  padding-bottom: 40px;
+  padding-top: 70px;
+}
+
+.nosotros-style {
+  font-family: "Oswald", sans-serif;
+  color: #228b22;
+}
+
+.servicios-homepage {
+  font-family: "Oswald", sans-serif;
+  color: #228b22;
+  border-color: #228b22 !important;
+  text-align: center;
+}
+
+.servicios-homepage .card-title {
+  text-decoration: underline;
+  padding-top: 20px;
+  font-size: 25px;
+}
+
+.servicios-homepage .card-text {
+  padding-top: 30px;
+}
+
+.servicios-homepage a {
+  margin-top: 60px;
+}
+
+.contacto-styles {
+  font-family: "Oswald", sans-serif;
+  color: #228b22;
+}
+
+.contacto-styles .info-fcontainer {
+  border-right: 2px double #228b22;
+  height: 80px;
+  margin-bottom: 40px;
+}
+
+.footer-style {
+  background-color: #99c58f;
+  color: #565656;
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.footer-style a {
+  text-decoration: none !important;
+  color: #565656;
+}
+
+.footer-style h6 {
+  text-decoration: underline;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.logo-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 0%;
+  margin-right: 5px;
+}
+
+.logomedia-facebook,
+.logomedia-instagram {
+  padding-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 17px;
+}
+
+.JD-style {
+  font-family: "Press Start 2P", cursive;
+  font-size: small;
+}
+
+.banner-secciones {
+  margin-top: 70px;
+  border-radius: 30px;
+}
+
+.h2-secciones {
+  color: #228b22;
+  font-family: "Bungee", cursive;
+  align-items: center;
+}
+
+.card-products {
+  color: #228b22;
+  font-family: "Oswald", sans-serif;
+  background-color: #f6f6f6 !important;
+  border-color: #228b22 !important;
+  border-width: 2px !important;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 375px;
+}
+
+.modal-header .modal-title {
+  color: #228b22;
+  font-family: "Bungee", cursive;
+}
+
+.modal-body {
+  color: #565656;
+  font-family: "Oswald", sans-serif;
+}
+
+.h4Servicios {
+  font-family: "Bungee", cursive;
+  color: #228b22;
+  text-decoration: overline;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.texto-servicios {
+  font-family: "Oswald", sans-serif;
+  color: #228b22;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-left: 30px;
+}
+
+form .form-group {
+  font-family: "Oswald", sans-serif;
+  color: #228b22;
+  font-size: 18px;
+}
+
+form {
+  margin-left: 30px;
+  align-content: center;
+}
+
+.boton-enviar-servicio {
+  margin-left: 17px;
+}
+
+/* cambio de cursor */
+body {
+  cursor: url("https://image.jimcdn.com/app/cms/image/transf/none/path/s224fc11c65cbc592/image/ib047566a915f340f/version/1362614531/image.gif"), default;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+/* media queries para ajustar texto sección serv para eventos */
+@media (max-width: 768px) {
+  .banner-secciones {
+    margin-top: 115px;
+  }
+
+  /* ajuste de margin del banner para las secciones */
+  .foto-banner {
+    margin-top: 70px;
+  }
+
+  /* ajuste de margin del banner ppal */
+  .h4Servicios {
+    text-decoration: none;
+  }
+
+  /* quita la decoración del texto para los h4 */
+  .carrusel-photo {
+    height: 300px;
+  }
+
+  /* reduce el tamaño de las fotos del carrusel */
+  p {
+    font-size: smaller;
+  }
+
+  /* reduce el tamaño de todos los textos P en toda la página */
+  .card-products {
+    margin-left: 25px;
+  }
+
+  /* ajuste de margen para las cards de productos */
+  .texto-servicios {
+    margin-left: 10px;
+  }
+
+  /* ajuste de margen para texto en página servicios */
+  form {
+    margin-left: 7px;
+  }
+
+  /* ajuste de margen para cuadro de formulario */
+  .JD-style {
+    font-size: 11px;
+  }
+
+  /* ajuste de tamaño letra para footer */
+  h2 {
+    font-size: medium;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

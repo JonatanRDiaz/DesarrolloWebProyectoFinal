@@ -1,0 +1,34 @@
+@import 'colors-styles';
+@import 'fonts-styles';
+
+
+
+// estilo y letra para Nombre al lado del logo - se aplica a la clase navbar navbar-brand
+
+@mixin navBarNameLogo {
+    font-size: 25px;
+    color: $navBarFontColor !important;
+    font-family: $font-family;
+    padding-bottom: 5px;
+    padding-left: 2px;
+}
+
+// estilo y letra para Nombre al lado del logo - se aplica a la clase .nav-item .nav-link
+@mixin navBarButtons {
+    font-size: 13px;
+    font-family: $font-family;
+    color: $navBarFontColor !important;
+}
+
+@mixin buttonsList {
+    background-color: $navBarBackgroundColor !important;
+    font-family: $font-family;
+}
+
+@mixin nav-background-color {
+    background-color: $navBarBackgroundColor;
+}
+
+@mixin color-paraA-menu-desplegable {
+    color: $navBarHoverColor;
+}

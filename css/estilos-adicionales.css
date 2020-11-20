@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+
+/* Inicio - afecta al sub menú desplegable dentro del menu, para ver categoria de productos. */
+
+.dropdown-item:hover {
+  background-color: #ffffff !important;
+  color: #228b22 !important;
+}
+
+.dropdown-item {
+  color: #ffffff !important;
+}
+
+/* Cierre - afecta al sub menú desplegable dentro del menu, para ver categoria de productos. */
+
+/* --------------------------------------------------------------------------------------------- */
+
+/* Animaciones en página ppal - home*/
+
+/* efecto imagen circular en sección nosotros*/
+.circular img {
+  transition: 1s ease;
+}
+
+.circular img:hover {
+  border-radius: 50%;
+  transition: 3s ease;
+}
+
+
+/* efecto para imágenes de redes sociales*/
+
+.agrandar img {
+  transition: 1s ease;
+}
+
+.agrandar img:hover {
+  -webkit-transform: scale(1.7);
+  -ms-transform: scale(1.7);
+  transform: scale(1.7);
+  transition: 1s ease;
+}
+
+
+/* efecto para imágenes de productos*/
+/* el mismo queda solo para pantallas grandes, decidí que para pantallas pequeñas, solo se vean las imágenes sin efectos. */
+
+@media (min-width:768px) {
+
+.escala-grises img {
+  opacity: 0.5;
+  transition: 1s ease;
+}
+
+.escala-grises img:hover {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+}
+
+
+
